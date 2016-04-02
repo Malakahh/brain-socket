@@ -1,9 +1,9 @@
 {
-	"name": "malakahh/brain-socket",
+	"name": "brainboxlabs/brain-socket",
 	"type": "library",
 	"description": "Websockets for event-driven Laravel apps.",
 	"keywords": ["websockets","laravel","events","ratchet","artisan"],
-	"homepage": "https://github.com/Malakahh/brain-socket",
+	"homepage": "https://github.com/BrainBoxLabs/brain-socket",
 	"license": "MIT",
 	"authors": [
 		{
@@ -14,6 +14,7 @@
 		},
 		{
 			"name": "Malakahh",
+			"homepage": "https://github.com/Malakahh/brain-socket",
 			"role": "Developer"
 		}
 	],
