@@ -25,6 +25,8 @@ class BrainSocketEventListener implements MessageComponentInterface {
 			, $from->resourceId, $msg, $numRecv, $numRecv == 1 ? '' : 's');
 
 		$from->send($this->response->make($msg));
+
+		//test
 	}
 
 	public function onClose(ConnectionInterface $conn) {
