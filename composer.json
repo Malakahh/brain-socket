@@ -1,5 +1,5 @@
 {
-	"name": "brainboxlabs/brain-socket",
+	"name": "malakahh/brain-socket",
 	"type": "library",
 	"description": "Websockets for event-driven Laravel apps.",
 	"keywords": ["websockets","laravel","events","ratchet","artisan"],
@@ -10,6 +10,10 @@
 			"name": "Brain Box Labs",
 			"email": "andrew@brainboxmedia.ca",
 			"homepage": "http://www.brainboxmedia.ca/",
+			"role": "Developer"
+		},
+		{
+			"name": "Malakahh",
 			"role": "Developer"
 		}
 	],
