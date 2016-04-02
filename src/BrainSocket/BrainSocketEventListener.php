@@ -24,10 +24,7 @@ class BrainSocketEventListener implements MessageComponentInterface {
 		echo sprintf('Connection %d sending message "%s" to %d other connection%s' . "\n"
 			, $from->resourceId, $msg, $numRecv, $numRecv == 1 ? '' : 's');
 
-        $message = $this->response->make($msg);
-		foreach ($this->clients as $client) {
-			$client->send($message);
-		}
+		$from->send($this->response->make($msg));
 	}
 
 	public function onClose(ConnectionInterface $conn) {
